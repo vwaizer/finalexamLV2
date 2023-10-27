@@ -1,12 +1,13 @@
-
-import './App.css';
-import Content from './component/Content';
-
+import { createContext, useState } from "react";
+import "./App.css";
+import Content from "./component/Content";
+export const DataContext = createContext([]);
 function App() {
+  window.localStorage.setItem("data",[]);
   return (
-    <div className="App">
-      <Content/>
-    </div>
+    
+      <Content></Content>
+    
   );
 }
 
