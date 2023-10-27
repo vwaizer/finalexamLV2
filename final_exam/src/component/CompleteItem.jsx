@@ -2,7 +2,6 @@ import { Button, Checkbox } from "antd";
 import React from "react";
 import { BsTrash } from "react-icons/bs";
 
-
 const CompleteItem = (props) => {
   const title = props.data.name;
   return (
@@ -13,8 +12,6 @@ const CompleteItem = (props) => {
           <BsTrash />
         </Button>
       </div>
-      
-      
     </div>
   );
 };

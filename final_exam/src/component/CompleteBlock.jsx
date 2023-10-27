@@ -9,7 +9,7 @@ const CompleteBlock = (props) => {
   });
   console.log(data);
   console.log(dataSet);
- 
+
   return (
     <div className="completeBlock">
       <div className="completeClass">
